@@ -20,8 +20,8 @@ no_index:
     - xt
 requires:
   IO::Socket::INET: 0
-  Test::SharedFork: 0.12
+  Test::SharedFork: 0.14
   perl: 5.8.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.05
+version: 1.06
