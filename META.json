@@ -10,7 +10,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "test-tcp",
+   "name" : "Test-TCP",
    "prereqs" : {
       "build" : {
          "requires" : {
@@ -35,13 +35,13 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/tokuhirom/test-tcp/issues"
+         "web" : "https://github.com/tokuhirom/Test-TCP/issues"
       },
-      "homepage" : "https://github.com/tokuhirom/test-tcp",
+      "homepage" : "https://github.com/tokuhirom/Test-TCP",
       "repository" : {
-         "url" : "git://github.com/tokuhirom/test-tcp.git",
-         "web" : "https://github.com/tokuhirom/test-tcp"
+         "url" : "git://github.com/tokuhirom/Test-TCP.git",
+         "web" : "https://github.com/tokuhirom/Test-TCP"
       }
    },
-   "version" : "1.22"
+   "version" : "1.23"
 }

@@ -13,14 +13,14 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: test-tcp
+name: Test-TCP
 provides: {}
 requires:
   IO::Socket::INET: 0
   Test::SharedFork: 0.19
   perl: 5.00800
 resources:
-  bugtracker: https://github.com/tokuhirom/test-tcp/issues
-  homepage: https://github.com/tokuhirom/test-tcp
-  repository: git://github.com/tokuhirom/test-tcp.git
-version: 1.22
+  bugtracker: https://github.com/tokuhirom/Test-TCP/issues
+  homepage: https://github.com/tokuhirom/Test-TCP
+  repository: git://github.com/tokuhirom/Test-TCP.git
+version: 1.23
