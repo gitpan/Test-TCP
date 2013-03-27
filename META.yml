@@ -6,24 +6,21 @@ build_requires:
   ExtUtils::MakeMaker: 6.59
   Test::More: 0.98
 configure_requires:
-  ExtUtils::MakeMaker: 6.59
-distribution_type: module
-dynamic_config: 1
-generated_by: 'Module::Install version 1.06'
+  Module::Build::Tiny: 0
+dynamic_config: 0
+generated_by: 'Minilla/v0.0.49, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Test-TCP
-no_index:
-  directory:
-    - inc
-    - t
-    - xt
+name: test-tcp
+provides: {}
 requires:
   IO::Socket::INET: 0
   Test::SharedFork: 0.19
-  perl: 5.8.0
+  perl: 5.00800
 resources:
-  license: http://dev.perl.org/licenses/
-version: 1.21
+  bugtracker: https://github.com/tokuhirom/test-tcp/issues
+  homepage: https://github.com/tokuhirom/test-tcp
+  repository: git://github.com/tokuhirom/test-tcp.git
+version: 1.22
