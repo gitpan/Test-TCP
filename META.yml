@@ -14,7 +14,16 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Test-TCP
-provides: {}
+provides:
+  Net::EmptyPort:
+    file: lib/Net/EmptyPort.pm
+    version: 0
+  Test::TCP:
+    file: lib/Test/TCP.pm
+    version: 1.24
+  Test::TCP::CheckPort:
+    file: lib/Test/TCP/CheckPort.pm
+    version: 0
 requires:
   IO::Socket::INET: 0
   Test::SharedFork: 0.19
@@ -23,4 +32,4 @@ resources:
   bugtracker: https://github.com/tokuhirom/Test-TCP/issues
   homepage: https://github.com/tokuhirom/Test-TCP
   repository: git://github.com/tokuhirom/Test-TCP.git
-version: 1.23
+version: 1.24
