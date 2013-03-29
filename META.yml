@@ -3,12 +3,10 @@ abstract: 'testing TCP program'
 author:
   - 'Tokuhiro Matsuno <tokuhirom@gmail.com>'
 build_requires:
-  ExtUtils::MakeMaker: 6.59
   Test::More: 0.98
 configure_requires:
   CPAN::Meta: 0
   Module::Build: 0.38
-  Module::Build::Tiny: 0
 dynamic_config: 0
 generated_by: 'Minilla/v0.0.49, CPAN::Meta::Converter version 2.120921'
 license: perl
@@ -22,7 +20,7 @@ provides:
     version: 0
   Test::TCP:
     file: lib/Test/TCP.pm
-    version: 1.25
+    version: 1.26
   Test::TCP::CheckPort:
     file: lib/Test/TCP/CheckPort.pm
     version: 0
@@ -34,4 +32,4 @@ resources:
   bugtracker: https://github.com/tokuhirom/Test-TCP/issues
   homepage: https://github.com/tokuhirom/Test-TCP
   repository: git://github.com/tokuhirom/Test-TCP.git
-version: 1.25
+version: 1.26
